@@ -57,10 +57,6 @@ The following methods are available through the `NetSync` object:
 
 ## Example Usage
 
-### Exploding the Nearest Vehicle
-
-The script includes a sample command to demonstrate how to use the `NetworkExplodeVehicle` method. This command finds the nearest vehicle within a 10-meter radius and explodes it:
-
 ```lua
 local NetSync = exports.fel_netsync:Fetch()
 
