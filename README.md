@@ -8,7 +8,6 @@ This FiveM script provides a robust system for executing native methods on entit
 
 - **Network Synchronization**: Automatically handles network control of entities before executing methods.
 - **Extensive Native Method Support**: Supports a variety of native methods for vehicles, peds, and objects.
-- **Custom Command**: Includes an example command to demonstrate how to explode the nearest vehicle.
 
 ## Methods Included
 
