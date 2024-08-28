@@ -1,5 +1,7 @@
+local TSE = TriggerServerEvent
+
 function RequestNetSync(method, entity, ...)
-	TriggerServerEvent(
+	TSE(
 		"NetSync:Server:Request",
 		GetInvokingResource(),
 		GetPlayerServerId(NetworkGetEntityOwner(entity)),
